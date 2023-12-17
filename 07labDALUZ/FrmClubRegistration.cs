@@ -67,6 +67,18 @@ namespace _07labDALUZ
             clubRegistrationQuery.RegisterStudent(ID, StudentId, FirstName, MiddleName, LastName, Age, Gender, Program);
 
             RefreshListOfMembers();
+            Clear();
+        }
+
+        public void Clear()
+        {
+            txtStudID.Clear();
+            txtLname.Clear();
+            txtFname.Clear();
+            txtMname.Clear();
+            txtAge.Clear();
+            cbGender.SelectedIndex = -1;
+            cbProgram.SelectedIndex = -1;
         }
     }
 }
