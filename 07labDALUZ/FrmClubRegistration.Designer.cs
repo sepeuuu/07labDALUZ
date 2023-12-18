@@ -55,7 +55,6 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btnRefresh);
             this.panel1.Controls.Add(this.btnUpdate);
             this.panel1.Controls.Add(this.btnRegister);
             this.panel1.Controls.Add(this.txtStudID);
@@ -139,7 +138,6 @@
             "BS in Accountancy (BSA)",
             "BS in Accounting Information System (BSAIS)",
             "BS in Management Accounting (BSMA)",
-            "BS in Retail Technology and Consumer Science (BSRTCS)",
             "BS in Hospitality Management (BSHM)",
             "BS in Culinary Management (BSCM)",
             "BS in Tourism Management (BSTM)",
@@ -260,6 +258,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnRefresh);
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Location = new System.Drawing.Point(12, 220);
             this.panel2.Name = "panel2";
@@ -273,7 +272,7 @@
             this.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRefresh.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefresh.ForeColor = System.Drawing.Color.White;
-            this.btnRefresh.Location = new System.Drawing.Point(757, 159);
+            this.btnRefresh.Location = new System.Drawing.Point(757, 3);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(123, 33);
             this.btnRefresh.TabIndex = 4;
@@ -287,7 +286,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(3, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(892, 251);
+            this.dataGridView1.Size = new System.Drawing.Size(690, 251);
             this.dataGridView1.TabIndex = 0;
             // 
             // FrmClubRegistration
